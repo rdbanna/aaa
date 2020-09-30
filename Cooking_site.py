@@ -26,12 +26,12 @@ def Getcontent(childsoup):
     sec = ""
     for v in Second:
         sec = sec + v.getText() + "\n"
-    return Nameof,sec,updme,maing
+    return Nameof,sec,updme,main.second
 
 
 def linkgen(seeall,numberofr
     ChildUrls = []
-    numofp=numberofr//24
+    numofp=numberofr//42
     for x in range(math.ceil(numofp)):
         ChildUrls.append(seeall+"&page="+str(x+1))
     return ChildUrls
