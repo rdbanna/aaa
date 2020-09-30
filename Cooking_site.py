@@ -3,7 +3,8 @@ import requests
 import pandas as pd
 import math
 import re
-
+import sys
+import os
 def Getcontent(childsoup):
     global Nameof,updme,maing,sec
     #for heading / name
