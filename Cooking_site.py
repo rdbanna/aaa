@@ -3,6 +3,7 @@ import requests
 import pandas as pd
 import math
 import re
+import panda as pd
 
 def Getcontent(childsoup):
     global Nameof,updme,maing,sec
@@ -92,6 +93,9 @@ for P in CountryLinks:
         Met.append(updme)
         Cui.append(cuis)
         print("NOw running"+" "+str(point)+" "+cuis)
+        print("vishal")
+            for x in range(5):
+                print("vishal")
 
 MainData=pd.DataFrame(
     {
