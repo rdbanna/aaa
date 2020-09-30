@@ -25,7 +25,7 @@ def Getcontent(childsoup):
     sec = ""
     for v in Second:
         sec = sec + v.getText() + "\n"
-    return Nameof,sec,updme,maing
+    return Nameof,sec,updme,maing,second
 
 
 def linkgen(seeall,numberofr
