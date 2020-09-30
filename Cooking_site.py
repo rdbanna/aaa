@@ -22,11 +22,12 @@ def Getcontent(childsoup):
     for c in main:
         maing = maing + c.getText() + "\n"
     #for only name of ingrudebt
+    #this bug is not good bro
     Second = childsoup.find_all('a', class_="recipe-ingredients__link")
     sec = ""
     for v in Second:
         sec = sec + v.getText() + "\n"
-    return Nameof,sec,updme,main.second
+    return Nameof,sec,updme,main
 
 
 def linkgen(seeall,numberofr
